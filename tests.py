@@ -1,11 +1,9 @@
-from functions.get_files_info import get_files_info
+from functions.get_file_content import get_file_content
 
 
-teste = get_files_info("calculator", ".")
-print(teste)
-teste = get_files_info("calculator", "pkg")
-print(teste)
-teste = get_files_info("calculator", "/bin")
-print(teste)
-teste = get_files_info("calculator", "../")
-print(teste)
+test = get_file_content("calculator", "main.py")
+print(test)
+test = get_file_content("calculator", "pkg/calculator.py")
+print(test)
+test = get_file_content("calculator", "/bin/cat")
+print(test)
