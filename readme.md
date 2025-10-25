@@ -1,4 +1,4 @@
-# AiAgent um api Gemini
+# AiAgent uma api Gemini
 
 Um script de linha de comando em Python que utiliza a API do Google Gemini para responder ou executar ações em arquivos via prompts do usuário. É possível saber a versão da api no arquivos /dir
 
